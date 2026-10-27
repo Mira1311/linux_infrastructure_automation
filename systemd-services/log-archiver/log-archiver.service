@@ -1,0 +1,7 @@
+[Unit]
+Description=One-shoe service to archive system health logs
+
+[Service]
+Type=oneshot
+ExecStart=/home/minoru/new_exercise_per_day/systemd-services/log-archiver/log_archiver.sh
+
