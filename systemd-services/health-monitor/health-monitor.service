@@ -1,0 +1,11 @@
+[Unit]
+Description= Using for check is the system healthy at the current time
+
+[Service]
+Type=simple
+ExecStart=/home/minoru/new_exercise_per_day/health_check.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
