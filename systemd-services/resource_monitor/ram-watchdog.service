@@ -1,0 +1,10 @@
+[Unit]
+Description=Checking ram status
+
+[Service]
+Type=simple
+ExecStart=/home/minoru/new_exercise_per_day/systemd-services/resource_monitor/memory_watch.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
