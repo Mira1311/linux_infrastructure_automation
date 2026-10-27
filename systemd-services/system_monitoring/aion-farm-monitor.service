@@ -1,0 +1,12 @@
+[Unit]
+Description=AION 2 Global Pet Soul Farm Monitor
+
+[Service]
+Type=simple
+ExecStart=/home/minoru/new_exercise_per_day/systemd-services/system_monitoring/pet_soul_logger.sh
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
+
+
