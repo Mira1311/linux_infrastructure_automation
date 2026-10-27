@@ -1,0 +1,14 @@
+[Unit]
+Description= Routing Service
+Documentation= https://google.com
+
+
+[Service]
+Type=simple
+ExecStart=/home/minoru/new_exercise_per_day/network_routing.sh
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
+
