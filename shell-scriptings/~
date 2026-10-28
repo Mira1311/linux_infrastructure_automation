@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+# Get username and current directory
+username=$(whoami)
+currentdir=$(pwd)
+echo -e "${username} + ${currentdir} \n"
+
+
+# Get IP address of user
+ipaddr=$(hostname -I)
+echo -e "${ipaddr} \n"
+
+
+# Get the distribution of the current using Linux
+curdist=$(uname -a)
+echo "${curdist}"
