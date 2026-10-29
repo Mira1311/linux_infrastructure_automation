@@ -1,0 +1,9 @@
+2026-10-29 10:01:12 INFO User admin logged in from 192.168.1.10
+2026-10-29 10:02:45 ERROR Database timeout from 10.0.0.5
+2026-10-29 10:03:10 WARN Memory usage 85%
+2026-10-29 10:04:00 error Failed SSH root from 192.168.1.99
+2026-10-29 10:05:22 INFO Health check OK from 127.0.0.1
+2026-10-29 10:06:15 ERROR Disk quota exceeded from 192.168.1.10
+2026-10-29 10:07:30 ERROR Failed SSH admin from 192.168.1.99
+2026-10-29 10:08:11 ERROR Failed SSH guest from 192.168.1.99
+Hello there
